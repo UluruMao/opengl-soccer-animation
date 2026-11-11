@@ -1,0 +1,26 @@
+# Generated CMake and IDE build directories
+/build/
+/out/
+/bin/
+/obj/
+/cmake-build-*/
+/.vs/
+/.idea/
+/CMakeUserPresets.json
+
+# Compiler output and per-user IDE state
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exe
+*.user
+*.suo
+
+# Local archives and operating-system files
+*.zip
+Thumbs.db
+.DS_Store
+
+# The .lib and .dll under third_party/freeglut are required dependencies.
+# Keep them in the repository.
